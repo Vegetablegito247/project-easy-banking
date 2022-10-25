@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Manrope&family=Overpass:wght@400;700&family=Public+Sans:wght@300;400;700&family=Red+Hat+Text:ital,wght@0,700;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "public sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 0;
+}
+
+.list-item ul li {
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.list-item ul li a {
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);
+    height: 100%;
+}
+
+.list-item ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+nav .btn-req button,
+.next .inv-btn button {
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 25px;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: hsl(0, 0%, 100%);
+}
+
+.first {
+    display: flex;
+    position: relative;
+    height: 580px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.next {
+    margin-top: 7rem;
+    margin-left: 6rem;
+}
+
+.next h1 {
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+    margin-bottom: 1.5rem;
+    font-size: 50px;
+}
+
+.next p {
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);
+    width: 450px;
+    margin-bottom: 2rem;
+}
+
+.first .back {
+    position: absolute;
+    width: 900px;
+    height: 771px;
+    bottom: 0;
+    left: 47%;
+}
+
+.whole {
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.whole .mobile {
+    position: absolute;
+    left: 56%;
+    bottom: 39%;
+    z-index: 1;
+    width: 667px;
+    height: 839px;
+}
+
+.second {
+    width: 100%;
+    height: 600px;
+    background-color: hsl(220, 16%, 96%);
+}
+
+.why h1 {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+}
+
+.why p {
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);
+}
+
+.second .why {
+    margin-left: 6rem;
+}
+
+.second .content {
+    display: flex;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.content h3 {
+    margin-top: 2rem;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+}
+
+.content p {
+    font-size: 14px;
+    color: hsl(233, 8%, 62%);
+    margin-top: 1.5rem;
+}
+
+.content img {
+    width: 70px;
+    height: 70px;
+}
+
+.third {
+    width: 100%;
+}
+
+.latest h2 {
+    font-weight: 300;
+    margin-left: 6rem;
+    margin-top: 6rem;
+    font-size: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 6rem 4rem;
+}
+
+.cards .card-1,
+.cards .card-2,
+.cards .card-3,
+.cards .card-4 {
+    width: 200px;
+    border: 1px solid hsl(0, 0%, 86%);
+    padding: 2px;
+}
+
+.cards .card-1 img,
+.cards .card-2 img,
+.cards .card-3 img,
+.cards .card-4 img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.title p {
+    font-size: 8px;
+    margin-top: 16px;
+    margin-left: 10px;
+    color: hsl(233, 8%, 62%);
+}
+
+.card-text {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.card-text h4 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.card-text p {
+    font-size: 12px;
+    color: hsl(233, 8%, 62%);
+}
+
+footer {
+    width: 100%;
+    background-color: hsl(233, 26%, 24%);
+}
+
+footer .nav-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6rem 4rem;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin: 2rem 10px 0 0;
+}
+
+.social-links ul li i {
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    transition: 1.5s;
+}
+
+.social-links ul li i:hover,
+.foot-2 ul li a:hover,
+.foot-3 ul li a:hover {
+    color: hsl(136, 65%, 51%);
+}
+
+.foot-2 ul li,
+.foot-3 ul li {
+    display: block;
+}
+
+.l-1,
+.l-2 {
+    margin-bottom: 10px;
+}
+
+.foot-2 ul li a,
+.foot-3 ul li a {
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.foot-4 button {
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 25px;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.foot-4 p {
+    color: hsl(233, 8%, 62%);
+    font-size: 14px;
+}
